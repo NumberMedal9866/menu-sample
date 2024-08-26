@@ -113,26 +113,13 @@ h1{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.3)), url('@/assets/img/non/n2.png');
     }
-// .card{
-//     width: 100%;
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     align-items: center;
-//     &-item{
-
-//     }
-// }
-.active{
-    background: orange;
-    border: 3px orange solid;
-    color: #fff;
-}
-.inactive{
-    background: #fff;
-    color: orange;
-    border: 3px orange solid;
-    // padding: 2px 20px;
-    // outline: 1px orange solid;
-    // background: #fff;
-}
+    .active{
+        background: orange;
+        border: 3px orange solid;
+        color: #fff;
+    }
+    .inactive{
+        background: #fff;
+        color: orange;
+        border: 3px orange solid;
+    }
